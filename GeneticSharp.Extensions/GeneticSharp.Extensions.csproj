@@ -1,0 +1,199 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <Import Project="..\msbuilds\GeneticSharp.dotnet-core.targets" />
+  <Import Project="..\msbuilds\GeneticSharp.common.targets" />
+  
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>    
+    <AssemblyName>GeneticSharp.Extensions</AssemblyName>    
+  </PropertyGroup>
+
+  <!-- NuGet Package -->
+  <PropertyGroup>
+    <PackageId>GeneticSharp.Extensions</PackageId>
+    <PackageDescription>Extensions for GeneticSharp: a fast, extensible, multi-platform and multithreading C# Genetic Algorithm library that simplifies the development of applications using Genetic Algorithms (GAs).</PackageDescription>
+    <Authors>Diego Giacomelli</Authors>
+    <Owners>g1acomell1</Owners>
+    <PackageLicenseUrl>https://github.com/giacomelli/GeneticSharp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/giacomelli/GeneticSharp</PackageProjectUrl>
+    <PackageReleaseNotes>See changes at https://github.com/giacomelli/GeneticSharp.</PackageReleaseNotes>
+    <PackageTags>genetic-algorithms geneticsharp genetic algotithms</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\netstandard2.0\GeneticSharp.Extensions.deps.json" />
+    <Content Include="obj\Debug\net462\GeneticSharp.Extensions.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\netstandard2.0\GeneticSharp.Extensions.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AutoConfig\AutoConfigChromosome.cs" />
+    <None Include="AutoConfig\AutoConfigFitness.cs" />
+    <None Include="bin\Debug\net462\Antlr3.Runtime.dll" />
+    <None Include="bin\Debug\net462\GeneticSharp.Domain.dll" />
+    <None Include="bin\Debug\net462\GeneticSharp.Domain.pdb" />
+    <None Include="bin\Debug\net462\GeneticSharp.Extensions.dll" />
+    <None Include="bin\Debug\net462\GeneticSharp.Extensions.pdb" />
+    <None Include="bin\Debug\net462\GeneticSharp.Infrastructure.Framework.dll" />
+    <None Include="bin\Debug\net462\GeneticSharp.Infrastructure.Framework.pdb" />
+    <None Include="bin\Debug\net462\Microsoft.Win32.Primitives.dll" />
+    <None Include="bin\Debug\net462\NCalc.dll" />
+    <None Include="bin\Debug\net462\netstandard.dll" />
+    <None Include="bin\Debug\net462\System.AppContext.dll" />
+    <None Include="bin\Debug\net462\System.Collections.Concurrent.dll" />
+    <None Include="bin\Debug\net462\System.Collections.dll" />
+    <None Include="bin\Debug\net462\System.Collections.NonGeneric.dll" />
+    <None Include="bin\Debug\net462\System.Collections.Specialized.dll" />
+    <None Include="bin\Debug\net462\System.ComponentModel.dll" />
+    <None Include="bin\Debug\net462\System.ComponentModel.EventBasedAsync.dll" />
+    <None Include="bin\Debug\net462\System.ComponentModel.Primitives.dll" />
+    <None Include="bin\Debug\net462\System.ComponentModel.TypeConverter.dll" />
+    <None Include="bin\Debug\net462\System.Console.dll" />
+    <None Include="bin\Debug\net462\System.Data.Common.dll" />
+    <None Include="bin\Debug\net462\System.Diagnostics.Contracts.dll" />
+    <None Include="bin\Debug\net462\System.Diagnostics.Debug.dll" />
+    <None Include="bin\Debug\net462\System.Diagnostics.FileVersionInfo.dll" />
+    <None Include="bin\Debug\net462\System.Diagnostics.Process.dll" />
+    <None Include="bin\Debug\net462\System.Diagnostics.StackTrace.dll" />
+    <None Include="bin\Debug\net462\System.Diagnostics.TextWriterTraceListener.dll" />
+    <None Include="bin\Debug\net462\System.Diagnostics.Tools.dll" />
+    <None Include="bin\Debug\net462\System.Diagnostics.TraceSource.dll" />
+    <None Include="bin\Debug\net462\System.Diagnostics.Tracing.dll" />
+    <None Include="bin\Debug\net462\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net462\System.Drawing.Primitives.dll" />
+    <None Include="bin\Debug\net462\System.Dynamic.Runtime.dll" />
+    <None Include="bin\Debug\net462\System.Globalization.Calendars.dll" />
+    <None Include="bin\Debug\net462\System.Globalization.dll" />
+    <None Include="bin\Debug\net462\System.Globalization.Extensions.dll" />
+    <None Include="bin\Debug\net462\System.IO.Compression.dll" />
+    <None Include="bin\Debug\net462\System.IO.Compression.ZipFile.dll" />
+    <None Include="bin\Debug\net462\System.IO.dll" />
+    <None Include="bin\Debug\net462\System.IO.FileSystem.dll" />
+    <None Include="bin\Debug\net462\System.IO.FileSystem.DriveInfo.dll" />
+    <None Include="bin\Debug\net462\System.IO.FileSystem.Primitives.dll" />
+    <None Include="bin\Debug\net462\System.IO.FileSystem.Watcher.dll" />
+    <None Include="bin\Debug\net462\System.IO.IsolatedStorage.dll" />
+    <None Include="bin\Debug\net462\System.IO.MemoryMappedFiles.dll" />
+    <None Include="bin\Debug\net462\System.IO.Pipes.dll" />
+    <None Include="bin\Debug\net462\System.IO.UnmanagedMemoryStream.dll" />
+    <None Include="bin\Debug\net462\System.Linq.dll" />
+    <None Include="bin\Debug\net462\System.Linq.Expressions.dll" />
+    <None Include="bin\Debug\net462\System.Linq.Parallel.dll" />
+    <None Include="bin\Debug\net462\System.Linq.Queryable.dll" />
+    <None Include="bin\Debug\net462\System.Net.Http.dll" />
+    <None Include="bin\Debug\net462\System.Net.NameResolution.dll" />
+    <None Include="bin\Debug\net462\System.Net.NetworkInformation.dll" />
+    <None Include="bin\Debug\net462\System.Net.Ping.dll" />
+    <None Include="bin\Debug\net462\System.Net.Primitives.dll" />
+    <None Include="bin\Debug\net462\System.Net.Requests.dll" />
+    <None Include="bin\Debug\net462\System.Net.Security.dll" />
+    <None Include="bin\Debug\net462\System.Net.Sockets.dll" />
+    <None Include="bin\Debug\net462\System.Net.WebHeaderCollection.dll" />
+    <None Include="bin\Debug\net462\System.Net.WebSockets.Client.dll" />
+    <None Include="bin\Debug\net462\System.Net.WebSockets.dll" />
+    <None Include="bin\Debug\net462\System.ObjectModel.dll" />
+    <None Include="bin\Debug\net462\System.Reflection.dll" />
+    <None Include="bin\Debug\net462\System.Reflection.Extensions.dll" />
+    <None Include="bin\Debug\net462\System.Reflection.Primitives.dll" />
+    <None Include="bin\Debug\net462\System.Resources.Reader.dll" />
+    <None Include="bin\Debug\net462\System.Resources.ResourceManager.dll" />
+    <None Include="bin\Debug\net462\System.Resources.Writer.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.CompilerServices.VisualC.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.Extensions.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.Handles.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.InteropServices.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.Numerics.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.Serialization.Formatters.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.Serialization.Json.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.Serialization.Primitives.dll" />
+    <None Include="bin\Debug\net462\System.Runtime.Serialization.Xml.dll" />
+    <None Include="bin\Debug\net462\System.Security.Claims.dll" />
+    <None Include="bin\Debug\net462\System.Security.Cryptography.Algorithms.dll" />
+    <None Include="bin\Debug\net462\System.Security.Cryptography.Csp.dll" />
+    <None Include="bin\Debug\net462\System.Security.Cryptography.Encoding.dll" />
+    <None Include="bin\Debug\net462\System.Security.Cryptography.Primitives.dll" />
+    <None Include="bin\Debug\net462\System.Security.Cryptography.X509Certificates.dll" />
+    <None Include="bin\Debug\net462\System.Security.Principal.dll" />
+    <None Include="bin\Debug\net462\System.Security.SecureString.dll" />
+    <None Include="bin\Debug\net462\System.Text.Encoding.dll" />
+    <None Include="bin\Debug\net462\System.Text.Encoding.Extensions.dll" />
+    <None Include="bin\Debug\net462\System.Text.RegularExpressions.dll" />
+    <None Include="bin\Debug\net462\System.Threading.dll" />
+    <None Include="bin\Debug\net462\System.Threading.Overlapped.dll" />
+    <None Include="bin\Debug\net462\System.Threading.Tasks.dll" />
+    <None Include="bin\Debug\net462\System.Threading.Tasks.Parallel.dll" />
+    <None Include="bin\Debug\net462\System.Threading.Thread.dll" />
+    <None Include="bin\Debug\net462\System.Threading.ThreadPool.dll" />
+    <None Include="bin\Debug\net462\System.Threading.Timer.dll" />
+    <None Include="bin\Debug\net462\System.ValueTuple.dll" />
+    <None Include="bin\Debug\net462\System.Xml.ReaderWriter.dll" />
+    <None Include="bin\Debug\net462\System.Xml.XDocument.dll" />
+    <None Include="bin\Debug\net462\System.Xml.XmlDocument.dll" />
+    <None Include="bin\Debug\net462\System.Xml.XmlSerializer.dll" />
+    <None Include="bin\Debug\net462\System.Xml.XPath.dll" />
+    <None Include="bin\Debug\net462\System.Xml.XPath.XDocument.dll" />
+    <None Include="bin\Debug\netstandard2.0\GeneticSharp.Domain.dll" />
+    <None Include="bin\Debug\netstandard2.0\GeneticSharp.Domain.pdb" />
+    <None Include="bin\Debug\netstandard2.0\GeneticSharp.Extensions.dll" />
+    <None Include="bin\Debug\netstandard2.0\GeneticSharp.Extensions.pdb" />
+    <None Include="bin\Debug\netstandard2.0\GeneticSharp.Infrastructure.Framework.dll" />
+    <None Include="bin\Debug\netstandard2.0\GeneticSharp.Infrastructure.Framework.pdb" />
+    <None Include="Checkers\CheckersBoard.cs" />
+    <None Include="Checkers\CheckersChromosome.cs" />
+    <None Include="Checkers\CheckersFitness.cs" />
+    <None Include="Checkers\CheckersMove.cs" />
+    <None Include="Checkers\CheckersPiece.cs" />
+    <None Include="Checkers\CheckersSquare.cs" />
+    <None Include="Drawing\BitmapChromosome.cs" />
+    <None Include="Drawing\BitmapEqualityFitness.cs" />
+    <None Include="GeneticDiet\GeneticDietPopulation.cs" />
+    <None Include="GeneticDiet\GeneticDietChromosome.cs" />
+    <None Include="GeneticDiet\GeneticDietFitness.cs" />
+    <None Include="Ghostwriter\GhostwriterChromosome.cs" />
+    <None Include="Ghostwriter\GhostwriterFitness.cs" />
+    <None Include="Mathematic\EqualityFitness.cs" />
+    <None Include="Mathematic\EquationChromosome.cs" />
+    <None Include="Mathematic\EquationSolverFitness.cs" />
+    <None Include="Mathematic\FunctionBuilderChromosome.cs" />
+    <None Include="Mathematic\FunctionBuilderFitness.cs" />
+    <None Include="Mathematic\FunctionBuilderInput.cs" />
+    <None Include="obj\Debug\net462\GeneticSharp.Extensions.AssemblyInfo.cs" />
+    <None Include="obj\Debug\net462\GeneticSharp.Extensions.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net462\GeneticSharp.Extensions.csproj.CopyComplete" />
+    <None Include="obj\Debug\net462\GeneticSharp.Extensions.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net462\GeneticSharp.Extensions.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\net462\GeneticSharp.Extensions.dll" />
+    <None Include="obj\Debug\net462\GeneticSharp.Extensions.pdb" />
+    <None Include="obj\Debug\net462\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <None Include="obj\Debug\net462\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <None Include="obj\Debug\net462\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <None Include="obj\Debug\netstandard2.0\GeneticSharp.Extensions.AssemblyInfo.cs" />
+    <None Include="obj\Debug\netstandard2.0\GeneticSharp.Extensions.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netstandard2.0\GeneticSharp.Extensions.csproj.CopyComplete" />
+    <None Include="obj\Debug\netstandard2.0\GeneticSharp.Extensions.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netstandard2.0\GeneticSharp.Extensions.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netstandard2.0\GeneticSharp.Extensions.dll" />
+    <None Include="obj\Debug\netstandard2.0\GeneticSharp.Extensions.pdb" />
+    <None Include="obj\GeneticSharp.Extensions.csproj.nuget.cache" />
+    <None Include="obj\GeneticSharp.Extensions.csproj.nuget.g.props" />
+    <None Include="obj\GeneticSharp.Extensions.csproj.nuget.g.targets" />
+    <None Include="Properties\AssemblyInfo.cs" />
+    <None Include="TspChromosome.cs" />
+    <None Include="Tsp\TspCity.cs" />
+    <None Include="Tsp\TspFitness.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
+    <PackageReference Include="System.Drawing.Common" Version="4.5.0-preview1-26216-02" />
+    <PackageReference Include="NCalc.NetCore" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EF\EF.csproj" />
+    <ProjectReference Include="..\GeneticSharp.Domain\GeneticSharp.Domain.csproj" />
+    <ProjectReference Include="..\GeneticSharp.Infrastructure.Framework\GeneticSharp.Infrastructure.Framework.csproj" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

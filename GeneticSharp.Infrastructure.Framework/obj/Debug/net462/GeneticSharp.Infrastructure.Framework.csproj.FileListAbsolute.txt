@@ -1,0 +1,15 @@
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\bin\Debug\net462\GeneticSharp.Infrastructure.Framework.dll
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\bin\Debug\net462\GeneticSharp.Infrastructure.Framework.pdb
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.csprojAssemblyReference.cache
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.AssemblyInfoInputs.cache
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.AssemblyInfo.cs
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.dll
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.pdb
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master-SMA\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\bin\Debug\net462\GeneticSharp.Infrastructure.Framework.dll
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master-SMA\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\bin\Debug\net462\GeneticSharp.Infrastructure.Framework.pdb
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master-SMA\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master-SMA\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.AssemblyInfoInputs.cache
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master-SMA\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.AssemblyInfo.cs
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master-SMA\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.dll
+C:\Users\Matias\Documents\Seminario multi agentes\Tools\GeneticSharp-master-SMA\GeneticSharp-master\src\GeneticSharp.Infrastructure.Framework\obj\Debug\net462\GeneticSharp.Infrastructure.Framework.pdb
